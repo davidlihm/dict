@@ -1,0 +1,14 @@
+{
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["dict.js"],
+        "run_at": "document_start"
+    }],
+    "description": "",
+    "key": "d41d8cd98f00b204e9800998ecf8427e",
+    "manifest_version": 2,
+    "permissions": ["http://*/*", "https://*/*"],
+    "name": "dict",
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "0.1"
+}
